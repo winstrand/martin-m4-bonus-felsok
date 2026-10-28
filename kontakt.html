@@ -24,15 +24,20 @@
       <form action="#" method="post">
         <p>
           <label for="namn">Namn *</label><br />
-          <input type="text" id="namn" name="namn" />
+          <input type="text" id="namn" name="namn" required />
         </p>
         <p>
           <label for="e-post">E-post *</label><br />
-          <input type="email" id="e-post" name="epost" />
+          <input type="email" id="e-post" name="epost" required />
         </p>
         <p>
           <label for="telefon">Telefon</label><br />
-          <input type="tel" id="telefon" name="telefon" placeholder="Telefon" />
+          <input
+            type="tel"
+            id="telefon"
+            name="telefon"
+            placeholder="+46012345678"
+          />
         </p>
         <p>
           <label for="datum">Önskat datum</label><br />
